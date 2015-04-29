@@ -14,7 +14,7 @@
 
 	body
 	{
-		background: #f0f4f4;
+		background: #ffffff;
 		color: #5b5b5b;
 	}
 
@@ -689,7 +689,7 @@
 	#header
 	{
 		position: relative;
-		background-image: url('../images/header.jpg');
+		background-color: #000000;
 		background-size: 2560px 1600px;
 		background-position: center center;
 		background-attachment: fixed;
@@ -707,7 +707,7 @@
 			.homepage #header .overlay
 			{
 				content: '';
-				background: #2b2b2b;
+				background: #000000;
 				display: block;
 				position: absolute;
 				left: 0;
@@ -950,14 +950,22 @@
 
 	#banner
 	{
-		background: #fff;
+		background: #000;
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
 	}
+
+	#banner header >h2 {
+		color: #ffffff;
+	}
+	#banner header >h2>strong {
+		color: #ffffff;
+	}
 	
 		#banner header > p
 		{
+			color: #ffffff;
 			margin-bottom: 0;
 		}
 
@@ -1174,7 +1182,7 @@
 			.carousel .forward:hover:before,
 			.carousel .backward:hover:before
 			{
-				background-color: rgba(239,131,118, 0.75);
+				background-color: rgba(0,0,0, 0.75);
 			}
 
 		.carousel .reel
